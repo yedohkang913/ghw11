@@ -1,0 +1,34 @@
+//left side
+push
+move 75 260 0
+rotate y -10
+sphere 0 0 0 60
+pop
+//left side
+push
+move 130 260 0
+rotate y -100
+rotate x -90
+torus 0 0 0 20 50
+pop
+//body
+push
+move 150 250 0
+rotate y -10
+rotate x -10
+box 0 50 50 250 70 100
+//right side
+push
+move 275 10 0
+rotate y -10
+sphere 0 0 0 60
+pop
+//right side
+push
+move 225 10 0
+rotate y -90
+rotate x -90
+torus 0 0 0 20 50
+pop
+display
+save dumbell.png
